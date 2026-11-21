@@ -15,7 +15,7 @@ namespace Book_Vyalykh.Classes
             this.Id = Id;
             this.FIO = FIO;
         }
-        public static List<Author> AllAuthor()
+        public static List<Author> AllAuthors()
         {
             List<Author> allAuthors = new List<Author>();
             allAuthors.Add(new Author(1, "Виктор Пелевин"));
