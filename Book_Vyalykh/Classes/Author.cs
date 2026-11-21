@@ -9,11 +9,11 @@ namespace Book_Vyalykh.Classes
     public class Author
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public Author(int Id, string Name)
+        public string FIO { get; set; }
+        public Author(int Id, string FIO)
         {
             this.Id = Id;
-            this.Name = Name;
+            this.FIO = FIO;
         }
         public static List<Author> AllAuthor()
         {
